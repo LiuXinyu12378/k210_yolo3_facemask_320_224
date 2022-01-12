@@ -99,7 +99,7 @@ Please refer [nncase v0.1.0-RC5](https://github.com/kendryte/nncase/tree/v0.1.0-
 
 ## 效果
 
-![](asset\xiaoguo1.png)
+![](asset/xiaoguo1.png)
 
-![](asset\xiaoguo0.png)
+![](asset/xiaoguo0.png)
 
