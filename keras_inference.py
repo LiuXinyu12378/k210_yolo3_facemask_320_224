@@ -184,7 +184,7 @@ if __name__ == "__main__":
     parser.add_argument('--depth_multiplier', type=float, help='mobilenet depth_multiplier', choices=[0.5, 0.75, 1.0], default=0.75)
     parser.add_argument('--image_size', type=int, help='net work input image size', default=(224, 320), nargs='+')
     parser.add_argument('--output_size', type=int, help='net work output image size', default=(7, 10, 14, 20), nargs='+')
-    parser.add_argument('--obj_thresh', type=float, help='obj mask thresh', default=0.7)
+    parser.add_argument('--obj_thresh', type=float, help='obj mask thresh', default=0.8)
     parser.add_argument('--iou_thresh', type=float, help='iou mask thresh', default=0.3)
     parser.add_argument('--pre_ckpt', type=str,default="log/20220114-101900/yolo_model.h5", help='pre-train weights path')
     parser.add_argument('--test_image', type=str,default="VOCdevkit/JPEGImages/test_00000003.jpg", help='test image path')
