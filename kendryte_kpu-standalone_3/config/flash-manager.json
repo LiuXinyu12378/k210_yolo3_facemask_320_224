@@ -7,7 +7,7 @@
             "name": "KMODEL",
             "address": "0x601000",
             "autoAddress": true,
-            "filename": "new_testv1.kmodel",
+            "filename": "new_anchors.kmodel",
             "addressEnd": "0x9BC000",
             "swapBytes": true
         }

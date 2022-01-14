@@ -38,6 +38,10 @@ data = load_dataset(ANNOTATIONS_PATH)
 out = kmeans(data, k=CLUSTERS)
 print("Accuracy: {:.2f}%".format(avg_iou(data, out) * 100))
 # print("Boxes:\n {}".format(out))
-print("Boxes:\n {}-{}".format(out[:, 0]*320 , out[:, 1]*224 ))
+print("Boxes:\n {}-{}".format(out[:, 0] , out[:, 1] ))
 ratios = np.around(out[:, 0] / out[:, 1], decimals=2).tolist()
 print("Ratios:\n {}".format(sorted(ratios)))
+
+annchors = zip(out[:,0],out[:,1])
+
+print(sorted(annchors))

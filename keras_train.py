@@ -123,7 +123,7 @@ if __name__ == "__main__":
     parser.add_argument('--output_size', type=int, help='net work output image size', default=(7, 10, 14, 20), nargs='+')
     parser.add_argument('--batch_size', type=int, help='batch size', default=16)
     parser.add_argument('--rand_seed', type=int, help='random seed', default=6)
-    parser.add_argument('--max_nrof_epochs', type=int, help='epoch num', default=20)
+    parser.add_argument('--max_nrof_epochs', type=int, help='epoch num', default=50)
     parser.add_argument('--init_learning_rate', type=float, help='init learning rate', default=0.001)
     parser.add_argument('--learning_rate_decay_factor', type=float, help='learning rate decay factor', default=0)
     parser.add_argument('--obj_weight', type=float, help='obj loss weight', default=5.0)

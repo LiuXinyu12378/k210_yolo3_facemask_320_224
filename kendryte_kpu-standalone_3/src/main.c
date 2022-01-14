@@ -40,7 +40,7 @@ static int ai_done(void *ctx) {
 uint32_t g_lcd_gram0[320 * 224] __attribute__((aligned(16)));
 uint32_t g_lcd_gram1[320 * 224] __attribute__((aligned(16)));
 
-uint8_t g_ai_buf[320 * 240 * 3] __attribute__((
+uint8_t g_ai_buf[320 * 224 * 3] __attribute__((
     aligned(16)));  //不知道什么原因这里必须大于224*224，太大了会闪屏
 
 // #define ANCHOR_NUM 5
@@ -50,21 +50,19 @@ uint8_t g_ai_buf[320 * 240 * 3] __attribute__((
 #define ANCHOR_NUM 3
 
 // anchor要在把训练代码中的w,h扩大12-20倍再放到这里，不清楚训练代码和这个为什么会有这种关系
-// static float layer0_anchor[ANCHOR_NUM * 2] = {
-//     0.76120044, 0.57155991, 0.6923348, 0.88535553, 0.47163042, 0.34163313,
-// };
+static float layer0_anchor[ANCHOR_NUM * 2] = {3.88, 3.66, 5.53,
+                                              4.93, 7.65, 6.35};
+
+static float layer1_anchor[ANCHOR_NUM * 2] = {0.97, 0.99, 1.64,
+                                              1.69, 2.63, 2.61};
+
+// static float layer0_anchor[ANCHOR_NUM * 2] = {12.94040748, 6.858718919999999,
+//                                               11.7696916,  10.62426636,
+//                                               8.01771714,  4.09959756};
 
 // static float layer1_anchor[ANCHOR_NUM * 2] = {
-//     0.33340788, 0.70065861, 0.18124964, 0.38986752, 0.08497349, 0.1527057,
-// };
-
-static float layer0_anchor[ANCHOR_NUM * 2] = {12.94040748, 6.858718919999999,
-                                              11.7696916,  10.62426636,
-                                              8.01771714,  4.09959756};
-
-static float layer1_anchor[ANCHOR_NUM * 2] = {
-    5.66793396, 8.407903319999999, 3.0812438799999997,
-    4.67841024, 1.44454933,        1.8324684};
+//     5.66793396, 8.407903319999999, 3.0812438799999997,
+//     4.67841024, 1.44454933,        1.8324684};
 
 volatile uint8_t g_dvp_finish_flag = 0;
 volatile uint8_t g_ram_mux = 0;
@@ -174,6 +172,7 @@ int main(void) {
   lcd_draw_string(235, 40, "face mask", RED);
   lcd_draw_string(235, 85, "detection", WHITE);
   lcd_draw_string(225, 130, "by xinyuuliu", GREEN);
+  lcd_draw_string(0, 225, "Face-Mask Detection on K210 used Yolo3", WHITE);
   sleep(1);
   printf("DVP init\n");
   camera_init();
@@ -207,16 +206,16 @@ int main(void) {
       ;
   }
 
-  //一共两个检测头，第0个头被关掉了，因为发现它没有检测到任何框，而且同时开两个头，屏幕会跳动
-  // detect_rl0.anchor_number = ANCHOR_NUM;
-  // detect_rl0.anchor = layer0_anchor;
-  // detect_rl0.threshold = 0.3;
-  // detect_rl0.nms_value = 0.3;
-  // region_layer_init(&detect_rl0, 10, 7, 21, 320, 224);
+  // 一共两个检测头，第0个头被关掉了，因为发现它没有检测到任何框，而且同时开两个头，屏幕会跳动
+  detect_rl0.anchor_number = ANCHOR_NUM;
+  detect_rl0.anchor = layer0_anchor;
+  detect_rl0.threshold = 0.8;
+  detect_rl0.nms_value = 0.3;
+  region_layer_init(&detect_rl0, 10, 7, 21, 320, 224);
 
   detect_rl1.anchor_number = ANCHOR_NUM;
   detect_rl1.anchor = layer1_anchor;
-  detect_rl1.threshold = 0.7;
+  detect_rl1.threshold = 0.8;
   detect_rl1.nms_value = 0.3;
   region_layer_init(&detect_rl1, 20, 14, 21, 320, 224);
 
@@ -235,23 +234,30 @@ int main(void) {
 
     float *output0, *output1;
     size_t output_size;
-    // kpu_get_output(&task, 0, &output0, &output_size);
-    // detect_rl0.input = output0;
+    kpu_get_output(&task, 0, &output0, &output_size);
+    detect_rl0.input = output0;
     kpu_get_output(&task, 1, &output1, &output_size);
     detect_rl1.input = output1;
 
     /* start region layer */
-    // region_layer_run(&detect_rl0, NULL);
+    region_layer_run(&detect_rl0, NULL);
     region_layer_run(&detect_rl1, NULL);
 
+    /* display pic*/
+    // region_layer_draw_boxes(&detect_rl0, drawboxes);
+    g_ram_mux ^= 0x01;
+    lcd_draw_picture(0, 0, 320, 224, g_ram_mux ? g_lcd_gram0 : g_lcd_gram1);
+    g_dvp_finish_flag = 0;
+    /* draw boxs */
+    region_layer_draw_boxes(&detect_rl0, drawboxes);
+    usleep(20);
     /* display pic*/
     g_ram_mux ^= 0x01;
     lcd_draw_picture(0, 0, 320, 224, g_ram_mux ? g_lcd_gram0 : g_lcd_gram1);
     g_dvp_finish_flag = 0;
-
     /* draw boxs */
-    // region_layer_draw_boxes(&detect_rl0, drawboxes);
     region_layer_draw_boxes(&detect_rl1, drawboxes);
+    usleep(5);
   }
 
   return 0;

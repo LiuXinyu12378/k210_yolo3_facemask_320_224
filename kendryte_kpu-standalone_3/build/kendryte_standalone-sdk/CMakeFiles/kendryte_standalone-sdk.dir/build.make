@@ -70,22 +70,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.s: 
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -x assembler-with-cpp -D __riscv64 -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/crt.S -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry_user.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry_user.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.i: cmake_force
@@ -95,6 +82,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_use
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry_user.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/entry.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/interrupt.c
@@ -122,22 +122,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/locks.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i: cmake_force
@@ -150,7 +137,7 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/syscalls.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.i: cmake_force
@@ -160,6 +147,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/syscalls.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i: cmake_force
+	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s: cmake_force
+	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/aes.c
@@ -200,18 +200,18 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/clint.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dvp.c
@@ -226,35 +226,22 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dvp.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fft.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/dmac.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fpioa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fpioa.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.i: cmake_force
@@ -265,22 +252,22 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fpioa.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2c.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.i: cmake_force
@@ -290,6 +277,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2c.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2s.c
@@ -304,22 +304,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2s.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/plic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/plic.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.i: cmake_force
@@ -332,7 +319,7 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/pwm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/pwm.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.i: cmake_force
@@ -343,22 +330,22 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/pwm.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i: cmake_force
@@ -369,35 +356,35 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/timer.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.i: cmake_force
@@ -408,9 +395,35 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/timer.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.s
 
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sysctl.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/spi.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s
+
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uart.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.i: cmake_force
@@ -420,19 +433,6 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uart.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.s
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c
@@ -447,9 +447,22 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s
 
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s
+
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/wdt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj   -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/wdt.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.i: cmake_force
@@ -459,19 +472,6 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/wdt.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i: cmake_force
-	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s: cmake_force
-	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/interpreter.cpp
@@ -499,18 +499,18 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtim
 	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/kernel_registry.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i: cmake_force
-	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i: cmake_force
+	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s: cmake_force
-	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s: cmake_force
+	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/cpu/cpu_ops.cpp
@@ -525,9 +525,22 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtim
 	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/cpu/cpu_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.s
 
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i: cmake_force
+	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s: cmake_force
+	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s"
+	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s
+
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.i: cmake_force
@@ -538,101 +551,88 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtim
 	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.s"
 	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj -c C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i: cmake_force
-	@echo "Preprocessing CXX source to CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp > CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s: cmake_force
-	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s"
-	cd C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk && C:/Users/xinyuuliu/Desktop/kendryte/updater.beta.20190604.4.win32/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp -o CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s
-
 # Object files for target kendryte_standalone-sdk
 kendryte_standalone__sdk_OBJECTS = \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj"
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj"
 
 # External object files for target kendryte_standalone-sdk
 kendryte_standalone__sdk_EXTERNAL_OBJECTS =
 
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-standalone_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C static library libkendryte_standalone-sdk.a"

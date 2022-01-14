@@ -68,10 +68,10 @@ CMAKE_BINARY_DIR = C:/Users/xinyuuliu/Desktop/K210_Yolo_framework/kendryte_kpu-s
 # Target rules for target CMakeFiles/kendryte_kpu-standalone.dir
 
 # All Build rule for target.
-CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/all
-CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/all
-CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_lcd-nt35310-standalone-driver/CMakeFiles/kendryte_lcd-nt35310-standalone-driver.dir/all
 CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/all
+CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/all
+CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/all
+CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_lcd-nt35310-standalone-driver/CMakeFiles/kendryte_lcd-nt35310-standalone-driver.dir/all
 CMakeFiles/kendryte_kpu-standalone.dir/all: kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/all
 	$(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/depend
 	$(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/build

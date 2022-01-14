@@ -2,75 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48526ced-8175-426d-9f14-62dd6f7b983a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/FiraMono-Medium.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/SIL Open Font License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/dog_res.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/flash-list.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/k210_res.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/kmeans.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/maixpy_res.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/people_res.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/training.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/video_res.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/asset/yolo_model.h5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/dog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/people.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/aiimg.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/board_config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/font.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/image_process.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/image_process.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/incbin.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/kfpkg/dog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/kfpkg/flash-list.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/kfpkg/kpu_yolov3.kfpkg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/kfpkg/mkaiimg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/lcd.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/lcd.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/main.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/nt35310.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/nt35310.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/ov2640.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/ov2640.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/ov5640.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/ov5640.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/region_layer.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/region_layer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/w25qxx.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public/w25qxx.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/aiimg.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/board_config.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/font.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/image_process.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/image_process.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/incbin.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/kfpkg/dog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/kfpkg/flash-list.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/kfpkg/kpu_yolov3.kfpkg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/kfpkg/mkaiimg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/lcd.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/lcd.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/main.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/nt35310.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/nt35310.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/ov2640.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/ov2640.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/ov5640.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/ov5640.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/region_layer.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/region_layer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/w25qxx.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/w25qxx.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yolo3_frame_test_public_maixpy/yolo3_frame_test_public_maixpy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keras_inference.py" afterPath="$PROJECT_DIR$/keras_inference.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/CMakeFiles/kendryte_kpu-standalone.dir/src/main.c.obj" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/CMakeFiles/kendryte_kpu-standalone.dir/src/main.c.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_ai_image/libkendryte_ai_image.a" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_ai_image/libkendryte_ai_image.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_camera-standalone-driver/libkendryte_camera-standalone-driver.a" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_camera-standalone-driver/libkendryte_camera-standalone-driver.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_kpu-standalone" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_kpu-standalone" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_kpu-standalone.bin" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_kpu-standalone.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/libkendryte_standalone-sdk.a" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/libkendryte_standalone-sdk.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/K210_Yolo_framework.iml" afterPath="$PROJECT_DIR$/.idea/K210_Yolo_framework.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_annchors.py" afterPath="$PROJECT_DIR$/get_annchors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/compile_commands.json" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/compile_commands.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/link.txt" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/config/flash-manager.json" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/config/flash-manager.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/CMakeLists.txt" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/kendryte_libraries/kendryte_standalone-sdk/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kendryte_kpu-standalone_3/src/main.c" afterPath="$PROJECT_DIR$/kendryte_kpu-standalone_3/src/main.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keras_train.py" afterPath="$PROJECT_DIR$/keras_train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/make_voc_list.py" afterPath="$PROJECT_DIR$/make_voc_list.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/utils.py" afterPath="$PROJECT_DIR$/tools/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,11 +30,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/K210_Yolo_framework$keras_inference.coverage" NAME="keras_inference Coverage Results" MODIFIED="1641965754354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/K210_Yolo_framework$get_annchors.coverage" NAME="get_annchors Coverage Results" MODIFIED="1641977673923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/K210_Yolo_framework$get_annchors.coverage" NAME="get_annchors Coverage Results" MODIFIED="1642126493577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/K210_Yolo_framework$keras_train320_240.coverage" NAME="keras_train320_240 Coverage Results" MODIFIED="1642130695584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/K210_Yolo_framework$voc_label.coverage" NAME="voc_label Coverage Results" MODIFIED="1641887182606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/K210_Yolo_framework$voc_anchor.coverage" NAME="读voc_anchor Coverage Results" MODIFIED="1641980528268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/K210_Yolo_framework$voc_anchor.coverage" NAME="读voc_anchor Coverage Results" MODIFIED="1642134140636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/K210_Yolo_framework$make_voc_list.coverage" NAME="make_voc_list Coverage Results" MODIFIED="1641889479787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/K210_Yolo_framework$keras_train.coverage" NAME="keras_train Coverage Results" MODIFIED="1641956190345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/K210_Yolo_framework$keras_train.coverage" NAME="keras_train Coverage Results" MODIFIED="1642126736087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -93,42 +43,50 @@
       <file leaf-file-name="keras_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keras_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="119" column="57" lean-forward="false" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keras_inference.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/keras_inference.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="188" column="59" lean-forward="false" selection-start-line="188" selection-start-column="59" selection-end-line="188" selection-end-column="59" />
+            <state relative-caret-position="248">
+              <caret line="124" column="51" lean-forward="false" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="93" column="3" lean-forward="false" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
+            <state relative-caret-position="368">
+              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_annchors.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_annchors.py">
+      <file leaf-file-name="读voc_anchor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/读voc_anchor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keras_train320_240.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_train320_240.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yolonet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/yolonet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,11 +128,13 @@
         <option value="$PROJECT_DIR$/voc_label.py" />
         <option value="$PROJECT_DIR$/make_voc_list.py" />
         <option value="$PROJECT_DIR$/tools/utils.py" />
-        <option value="$PROJECT_DIR$/keras_train.py" />
         <option value="$PROJECT_DIR$/keras_inference.py" />
-        <option value="$PROJECT_DIR$/get_annchors.py" />
-        <option value="$PROJECT_DIR$/data/读voc_anchor.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/keras_train.py" />
+        <option value="$PROJECT_DIR$/get_annchors.py" />
+        <option value="$PROJECT_DIR$/data/写voc_anchor.py" />
+        <option value="$PROJECT_DIR$/keras_train320_240.py" />
+        <option value="$PROJECT_DIR$/data/读voc_anchor.py" />
       </list>
     </option>
   </component>
@@ -205,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,17 +187,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="asset" />
+              <option name="myItemId" value="kendryte_kpu-standalone_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="K210_Yolo_framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="K210_Yolo_framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kendryte_kpu-standalone_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="K210_Yolo_framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="K210_Yolo_framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../opencv_test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -249,6 +241,7 @@
       <recent name="C:\Users\xinyuuliu\Desktop\K210_Yolo_framework\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xinyuuliu\Desktop\K210_Yolo_framework\kendryte_kpu-standalone_3" />
       <recent name="C:\Users\xinyuuliu\Desktop\K210_Yolo_framework\data" />
     </key>
   </component>
@@ -265,25 +258,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.读voc_anchor">
-    <configuration default="false" name="make_voc_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="K210_Yolo_framework" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_voc_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="keras_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,25 +272,6 @@
       <module name="K210_Yolo_framework" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="keras_inference" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="K210_Yolo_framework" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_inference.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,6 +310,44 @@
       <module name="K210_Yolo_framework" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_annchors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="写voc_anchor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="K210_Yolo_framework" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/写voc_anchor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="keras_train320_240" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="K210_Yolo_framework" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_train320_240.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -509,19 +502,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.make_voc_list" />
-      <item index="1" class="java.lang.String" itemvalue="Python.keras_train" />
-      <item index="2" class="java.lang.String" itemvalue="Python.keras_inference" />
-      <item index="3" class="java.lang.String" itemvalue="Python.读voc_anchor" />
-      <item index="4" class="java.lang.String" itemvalue="Python.get_annchors" />
+      <item index="0" class="java.lang.String" itemvalue="Python.keras_train" />
+      <item index="1" class="java.lang.String" itemvalue="Python.读voc_anchor" />
+      <item index="2" class="java.lang.String" itemvalue="Python.get_annchors" />
+      <item index="3" class="java.lang.String" itemvalue="Python.写voc_anchor" />
+      <item index="4" class="java.lang.String" itemvalue="Python.keras_train320_240" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.读voc_anchor" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_annchors" />
-        <item index="2" class="java.lang.String" itemvalue="Python.keras_inference" />
-        <item index="3" class="java.lang.String" itemvalue="Python.keras_train" />
-        <item index="4" class="java.lang.String" itemvalue="Python.make_voc_list" />
+        <item index="1" class="java.lang.String" itemvalue="Python.keras_train320_240" />
+        <item index="2" class="java.lang.String" itemvalue="Python.keras_train" />
+        <item index="3" class="java.lang.String" itemvalue="Python.写voc_anchor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_annchors" />
       </list>
     </recent_temporary>
   </component>
@@ -539,20 +532,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3238958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36240092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -562,6 +555,28 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38618347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23712446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -574,44 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8004">
-          <caret line="348" column="15" lean-forward="false" selection-start-line="348" selection-start-column="15" selection-end-line="348" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="95" column="33" lean-forward="false" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras_inference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4140">
-          <caret line="189" column="79" lean-forward="false" selection-start-line="189" selection-start-column="79" selection-end-line="189" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7705">
-          <caret line="348" column="15" lean-forward="true" selection-start-line="348" selection-start-column="15" selection-end-line="348" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yolo3_frame_test_public/main.c" />
     <entry file="file://$PROJECT_DIR$/yolo3_frame_test_public/aiimg.h" />
     <entry file="file://$PROJECT_DIR$/yolo3_frame_test_public/region_layer.c" />
@@ -762,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VOCdevkit/JPEGImages/test_00000003.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -779,13 +749,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/mobilenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="294" column="21" lean-forward="false" selection-start-line="294" selection-start-column="16" selection-end-line="294" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/mobilenet_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -793,43 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/yolonet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/keras_mobilenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="76" column="12" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="348" column="15" lean-forward="false" selection-start-line="348" selection-start-column="15" selection-end-line="348" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kendryte_kpu-standalone_3/mask_face_end.kmodel">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras_inference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="188" column="59" lean-forward="false" selection-start-line="188" selection-start-column="59" selection-end-line="188" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,38 +771,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keras_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="188" column="59" lean-forward="false" selection-start-line="188" selection-start-column="59" selection-end-line="188" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/keras_mobilenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7544">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/custom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1081">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/mobilenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6601">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/20220113-110041/args.txt" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4945">
+          <caret line="228" column="56" lean-forward="false" selection-start-line="228" selection-start-column="56" selection-end-line="228" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_annchors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/写voc_anchor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/keras_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="119" column="57" lean-forward="false" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="57" />
+        <state relative-caret-position="248">
+          <caret line="124" column="51" lean-forward="false" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_train320_240.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/yolonet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/读voc_anchor.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="368">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_annchors.py">
+    <entry file="file://$PROJECT_DIR$/data/读voc_anchor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="93" column="3" lean-forward="false" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
+        <state relative-caret-position="230">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
