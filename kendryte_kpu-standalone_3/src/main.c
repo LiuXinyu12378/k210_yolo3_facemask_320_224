@@ -247,17 +247,18 @@ int main(void) {
     // region_layer_draw_boxes(&detect_rl0, drawboxes);
     g_ram_mux ^= 0x01;
     lcd_draw_picture(0, 0, 320, 224, g_ram_mux ? g_lcd_gram0 : g_lcd_gram1);
-    g_dvp_finish_flag = 0;
+    // g_dvp_finish_flag = 0;
     /* draw boxs */
     region_layer_draw_boxes(&detect_rl0, drawboxes);
     usleep(20);
     /* display pic*/
-    g_ram_mux ^= 0x01;
-    lcd_draw_picture(0, 0, 320, 224, g_ram_mux ? g_lcd_gram0 : g_lcd_gram1);
-    g_dvp_finish_flag = 0;
-    /* draw boxs */
+    // g_ram_mux ^= 0x01;
+    // lcd_draw_picture(0, 0, 320, 224, g_ram_mux ? g_lcd_gram0 : g_lcd_gram1);
+    // g_dvp_finish_flag = 0;
+    // /* draw boxs */
     region_layer_draw_boxes(&detect_rl1, drawboxes);
-    usleep(5);
+    g_dvp_finish_flag = 0;
+    // usleep(5);
   }
 
   return 0;
